@@ -12,7 +12,8 @@ La clase AndroidViewModel se usa para almacenar y administrar datos relacionados
 Esta clase se utiliza cuando se necesita el contexto para implementar operaciones en el repositorio.
 
 > ModeloVistaAndroid viewModel = new ViewModelProvider(this,  
-  ViewModelProvider.AndroidViewModelFactory.getInstance(this.getApplication())).get(ModeloVistaAndroid.class);
+  ViewModelProvider.AndroidViewModelFactory.getInstance(this.getApplication())).  
+    get(ModeloVistaAndroid.class);
 
 ![Imagen que muestra el ciclo de vida de un ViewModel](https://developer.android.com/images/topic/libraries/architecture/viewmodel-lifecycle.png)
 
